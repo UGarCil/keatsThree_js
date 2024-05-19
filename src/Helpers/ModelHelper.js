@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
 
-const scenePath = './models/scene2.gltf';
+const scenePath = '/models/scene2.gltf';
 
 
 // FD. LoadGLTFPath
