@@ -1,7 +1,7 @@
 import * as THREE from 'three';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-const scenePath = './scene2.gltf';
+const scenePath = 'scene2.gltf';
 
 // LoadGLTFByPath: Loads a GLTF model and adds it to the scene
 export const LoadGLTFByPath = (scene) => {
