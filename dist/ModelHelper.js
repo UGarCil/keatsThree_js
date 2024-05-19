@@ -1,12 +1,10 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader.js';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
-const scenePath = 'scene2.gltf';
+const scenePath = '/scene2.gltf';
 
-
-// FD. LoadGLTFPath
-// Signature: Scene to render -> Null
-// purp. find the gltf model, place it into the scene and get the mixer if animated
+// LoadGLTFByPath: Loads a GLTF model and adds it to the scene
 export const LoadGLTFByPath = (scene) => {
     return new Promise((resolve, reject) => {
         // Create a loader
@@ -16,16 +14,6 @@ export const LoadGLTFByPath = (scene) => {
         loader.load(scenePath, (gltf) => {
             const model = gltf.scene;
             scene.add(model);
-
-            // // Assuming the model contains an animation named "MyAnimation"
-            // const mixer = new THREE.AnimationMixer(model);
-            // // console.log(mixer);
-            // const clips = gltf.animations;
-            // if (clips && clips.length) {
-            //     const action = mixer.clipAction(clips[0]); // Assuming there's only one animation
-            //     // console.log(action);
-            //     action.play(); // Start the animation
-            // }
 
             // Create an array to store mixers
             const mixers = [];
@@ -47,10 +35,3 @@ export const LoadGLTFByPath = (scene) => {
         });
     });
 };
-
-// // Update function to be called in your render loop
-// export const updateAnimation = (mixer, deltaTime) => {
-//     if (mixer) {
-//         mixer.update(deltaTime);
-//     }
-// };
