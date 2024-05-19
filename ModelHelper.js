@@ -1,5 +1,5 @@
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/';
+import { GLTFLoader } from 'three/addons/loaders';
 
 const scenePath = 'scene2.gltf';
 
