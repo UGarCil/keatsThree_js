@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+
+
+<head lang="en">
+	<meta charset="utf-8">
+	<title>Home</title>
+	<style>
+		body {
+			margin: 0;
+		}
+	</style>
+	<script type="importmap">
+		{
+			"imports": {
+				"three": "./node_modules/three/build/three.module.js"
+			}
+		}
+	</script>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<!-- <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script> -->
+
+</head>
+
+<body>
+	<!-- ############### Insert NAVBAR with jQuery ############## -->
+	<div id="navbarJQ"></div>
+	<!-- ############### KICS map ############## -->
+	<section>
+		<canvas id="background" style="height: 80vh; width: 100vw;"></canvas>
+	</section>
+
+
+
+	<!-- ############### Edit text elements in this page ############## -->
+
+	<main class="container  content-BoxGCU" id="main-content">
+		<div class="row align-items-center" style="height: 100vh;">
+			<div class="col-md-5 content-BoxGCUResearch">
+				<h2>Welcome to Keats Island!</h2>
+				<hr>
+				<p>
+					Keats Island is a small-medium sized island of of 6.32 km <sup>2</sup> located in Howe Sound, B.C.,
+					Canada, considered part of the Salish sea, and part of the territories of the Squamish Nation
+					(Siwxwú7mesh Úxwumixw). Nowadays, human influenced clearing of the previously forested landscape
+					covers ca. 0.27 km<sup>2</sup> (4.3%) of the land surface.
+				</p>
+				<p>
+					There are two areas considered as parks, which cover 0.19 km <sup>2</sup> (3.08%) of the island.
+					Part
+					of the resilience of Keats' ecosystem can be attributed to a low density population and seasonal
+					visitors. There are pockets of habitation, including Eastbourne, Melody Point and Keats Camp,
+					but a lot of it is empty and privately owned. The island has trails that
+					traverse much of the rest of the Island, but many of those trails are on private land.
+				</p>
+				<hr>
+
+			</div>
+			<div class="col-md-7">
+
+			</div>
+		</div>
+
+		<div class="row align-items-center" style="height: 100vh;">
+			<div class="col-md-5 content-BoxGCUResearch">
+				<h2>The Keats Island Conservation Society</h2>
+				<hr>
+				<p>
+					The primary focus of the society is to reinforce a sense of community driven towards understanding
+					and protecting nature.
+					Trail maintenance, invasive species removal and frequent communication with land owners and other
+					organizations in the Howe Sound Biospehere Region are among the most proactive areas in which the
+					KICS is involved.
+
+				</p>
+				<hr>
+
+			</div>
+			<div class="col-md-7">
+
+			</div>
+		</div>
+
+		<div class="row align-items-center" style="height: 100vh;">
+			<div class="col-md-5 content-BoxGCUResearch">
+				<h2>Keats Island is rich in poorly known species!</h2>
+				<hr>
+				<p>
+					Residents of the island share their homes with a diverse community of species, in both terrestrial
+					and marine environments. Many of these species are arthropods, crustaceans and animals too small to
+					see with the naked eye. To know them and protect them is to ensure the stability of the environment
+					at its foundation because these communities serve as a food source for more charismatic species,
+					like salmon.
+				</p>
+				<p>
+					To help document and protect this diversity, some especialized members of the KICS use their
+					expertise in microscopy, ornithology, and restoration to elaborate catalogs and inventories that
+					document and communicate these species.
+				</p>
+				<hr>
+
+			</div>
+			<div class="col-md-7">
+
+			</div>
+		</div>
+
+		<div class="row align-items-center" style="height: 100vh;">
+			<div class="col-md-5 content-BoxGCUResearch">
+				<h2>The ocean connects us</h2>
+				<hr>
+				<p>
+					Given its size, Keats Island has a high proportion of shorelines relative to bigger islands in the
+					region.
+					This makes events in the Salish sea specially noticeable to keats islanders. But the mysterious
+					nature of the ocean that drives people to it also makes it difficult to study. The KICS ensures the
+					identification of 'indicator' species, whose presence and absence in the shorelines communicates
+					changes in the diversity and quality of the oceans.
+				</p>
+				<hr>
+
+			</div>
+			<div class="col-md-7">
+
+			</div>
+		</div>
+
+		<div class="row align-items-center" style="height: 100vh;">
+			<div class="col-md-5 content-BoxGCUResearch">
+				<h2>A haven for migratory species</h2>
+				<hr>
+				<p>
+					Residents of Howe Sound are often visited by migratory species of killer whales, sea lions, and
+					birds. These species use the region to replenish energy resources and secure a safe commute towards
+					their final destinations.
+				</p>
+				<p>
+					Other, equally majestic species like the bald eagle are instead residents throughout the year,
+					raising their chicks in the safety of the forest's canopy. A big part of the reasoning that
+					justifies the protection of these and other species
+					in the island is the same behing why most human residents and visitors are so strongly attracted to
+					nature when they visit the island.
+				</p>
+				<hr>
+
+			</div>
+			<div class="col-md-7">
+
+			</div>
+		</div>
+	</main>
+
+	<div style="height: 100vh;"></div>
+
+	<!-- ############### Reading FOOTER with jQuery ############## -->
+	<!-- <div id="footerJQ"></div> -->
+
+
+	<!-- ################ SCRIPTS ################################### -->
+	<script>
+		$("#navbarJQ").load("/public/navbar.html");
+		$("#footerJQ").load("/public/footer.html");
+	</script>
+	<script type="module" src="public/src/main.js"></script>
+
+</body>
+
+</html>
