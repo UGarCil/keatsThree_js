@@ -2,7 +2,7 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 // import { GLTFLoader } from 'three/addons/loaders';
 
-const scenePath = 'scene2.gltf';
+const scenePath = '/scene2.gltf';
 
 
 // FD. LoadGLTFPath
