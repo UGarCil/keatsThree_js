@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
 import { LoadGLTFByPath } from './ModelHelper.js';
-// import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
+
 
 
 // Declare global variables
