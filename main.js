@@ -115,8 +115,10 @@ function animate() {
   // controls.update();
 
   renderer.render(scene, camera); // Render the scene with the active camera
-  console.log(camera.position);
-  console.log(camera.rotation);
+
+  // USED TO CALIBRATE THE DESIRED POSITION OF THE FRAMES
+  // console.log(camera.position);
+  // console.log(camera.rotation);
 }
 
 //#################### CONTROL SCROLLING BEHAVIORS ####################
