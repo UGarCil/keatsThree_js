@@ -197,7 +197,7 @@ function calculateRelativePosition() {
     t = scrollPosition / maxScroll;
   }
 
-  console.log(t);
+  // console.log(t);
   return t;
 }
 
