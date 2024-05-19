@@ -1,7 +1,7 @@
 // Import the necessary modules from three.js and ModelHelper.js
 import * as THREE from 'three'
 import { LoadGLTFByPath } from './Helpers/ModelHelper.js'
-import { OrbitControls } from '/node_modules/three/examples/jsm/controls/OrbitControls.js';
+import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 
 // Declare global variables
