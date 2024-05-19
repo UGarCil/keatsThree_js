@@ -1,6 +1,5 @@
 import * as THREE from 'three';
-import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
-// import { GLTFLoader } from 'three/addons/loaders';
+import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
 
 const scenePath = '/scene2.gltf';
 
